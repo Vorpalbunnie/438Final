@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "MySchedule-2.png",
+      "filename" : "MySchedule.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "MySchedule@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "MySchedule@3x.png",
       "scale" : "3x"
     }
   ],

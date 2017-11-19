@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		684A10361FC0FB490017FF73 /* finalExamSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684A10351FC0FB490017FF73 /* finalExamSchedule.swift */; };
+		684A10381FC0FB7D0017FF73 /* finalExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684A10371FC0FB7D0017FF73 /* finalExam.swift */; };
+		6860A18B1FC10BB600E4DE83 /* remindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860A18A1FC10BB600E4DE83 /* remindView.swift */; };
+		6860A18D1FC113EA00E4DE83 /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860A18C1FC113EA00E4DE83 /* welcomeView.swift */; };
+		6860A18F1FC114C400E4DE83 /* informationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860A18E1FC114C400E4DE83 /* informationView.swift */; };
 		68706EF11FB66D3600031567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68706EF01FB66D3600031567 /* AppDelegate.swift */; };
 		68706EF31FB66D3600031567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68706EF21FB66D3600031567 /* ViewController.swift */; };
 		68706EF61FB66D3600031567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68706EF41FB66D3600031567 /* Main.storyboard */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		684A10351FC0FB490017FF73 /* finalExamSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finalExamSchedule.swift; sourceTree = "<group>"; };
+		684A10371FC0FB7D0017FF73 /* finalExam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finalExam.swift; sourceTree = "<group>"; };
+		6860A18A1FC10BB600E4DE83 /* remindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = remindView.swift; sourceTree = "<group>"; };
+		6860A18C1FC113EA00E4DE83 /* welcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
+		6860A18E1FC114C400E4DE83 /* informationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = informationView.swift; sourceTree = "<group>"; };
 		68706EED1FB66D3600031567 /* scheduled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68706EF01FB66D3600031567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68706EF21FB66D3600031567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,11 +114,16 @@
 				68706EF01FB66D3600031567 /* AppDelegate.swift */,
 				68706EF21FB66D3600031567 /* ViewController.swift */,
 				68706EF41FB66D3600031567 /* Main.storyboard */,
+				6860A18E1FC114C400E4DE83 /* informationView.swift */,
+				6860A18C1FC113EA00E4DE83 /* welcomeView.swift */,
+				6860A18A1FC10BB600E4DE83 /* remindView.swift */,
 				68706EFA1FB66D3600031567 /* Assets.xcassets */,
 				68706EFC1FB66D3600031567 /* LaunchScreen.storyboard */,
 				68706EFF1FB66D3600031567 /* Info.plist */,
 				68706EF71FB66D3600031567 /* scheduled.xcdatamodeld */,
 				68706F211FB675CB00031567 /* transitionRight.swift */,
+				684A10351FC0FB490017FF73 /* finalExamSchedule.swift */,
+				684A10371FC0FB7D0017FF73 /* finalExam.swift */,
 			);
 			path = scheduled;
 			sourceTree = "<group>";
@@ -266,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				68706EF91FB66D3600031567 /* scheduled.xcdatamodeld in Sources */,
+				6860A18B1FC10BB600E4DE83 /* remindView.swift in Sources */,
+				684A10361FC0FB490017FF73 /* finalExamSchedule.swift in Sources */,
+				6860A18D1FC113EA00E4DE83 /* welcomeView.swift in Sources */,
 				68706F221FB675CB00031567 /* transitionRight.swift in Sources */,
+				684A10381FC0FB7D0017FF73 /* finalExam.swift in Sources */,
+				6860A18F1FC114C400E4DE83 /* informationView.swift in Sources */,
 				68706EF31FB66D3600031567 /* ViewController.swift in Sources */,
 				68706EF11FB66D3600031567 /* AppDelegate.swift in Sources */,
 			);
