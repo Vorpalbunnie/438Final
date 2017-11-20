@@ -23,11 +23,20 @@ class InformationViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    //MARK: User Interaction:
+    
     @IBOutlet weak var button: UIButton!
     @IBAction func returnToWhenceYeCame(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func emailUs(_ sender: Any) {
+        print("WARNING: Email does not function in simulator")
+        let email = "placeholderemailnotreal@gmail.com"
+        let url = URL(string: "mailto:\(email)")
+        UIApplication.shared.openURL(url!)
+    }
     
     
 }
